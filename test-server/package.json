@@ -1,0 +1,21 @@
+{
+  "name": "ssl-test-server",
+  "version": "1.0.0",
+  "description": "Servidor de teste com SSL auto-assinado",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-client.js"
+  },
+  "keywords": [
+    "ssl",
+    "test",
+    "https",
+    "self-signed"
+  ],
+  "author": "alexkads",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
